@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import foodLogo from "../assets/img/logo.svg";
+import foodLogo from "../assets/images/logo.svg";
 import {
   HomeIcon,
   DiscountIcon,
