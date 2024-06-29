@@ -3,7 +3,7 @@ import FoodItem from "./FoodItem";
 
 const FoodList = () => {
   return (
-    <ul className="flex items-start justify-between flex-wrap gap-4">
+    <ul className="h-[550px] overflow-auto pt-14 flex items-start justify-between flex-wrap gap-4 example">
       {FOODS.map((food) => (
         <FoodItem
           key={food.id}

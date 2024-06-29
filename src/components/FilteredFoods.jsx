@@ -1,6 +1,6 @@
 const FilteredFoods = ({ activeTabContent }) => {
   return (
-    <div className="w-full flex items-center justify-between mb-20">
+    <div className="w-full flex items-center justify-between mb-6">
       <h2 className="text-xl leading-7 font-semibold capitalize">
         {activeTabContent}
       </h2>
